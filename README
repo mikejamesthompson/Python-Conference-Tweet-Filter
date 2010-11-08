@@ -1,0 +1,6 @@
+This is a very basic script that downloads a HTML transcript from wthashtag.com
+of the tweets that use a particular hashtag from wthashtag.com, parses the HTML
+using BeautifulSoup and extracts the contents of the tweets. These contents are 
+then stripped of HTML tags and @ references, some keywords selectively removed
+and other keyword pairs joined up using ~ as a connector. The contents can then
+be fed into Wordle.net/create to generate a word cloud of the hashtag archive.
